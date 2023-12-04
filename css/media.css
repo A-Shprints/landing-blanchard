@@ -271,6 +271,7 @@
   .hero {
     min-height: 562px;
     padding-top: 106px;
+    padding-left: var(--padding-side);
     height: unset;
   }
 
@@ -300,10 +301,10 @@
   }
 
   .gallery__wrapper {
-    padding-top: 0;
+    padding-top: 95px;
     min-height: 561px;
-    flex-direction: column;
-    gap: 4px;
+    flex-direction: row;
+    gap: 37px;
   }
 
   .gallery__form-wrapper {
