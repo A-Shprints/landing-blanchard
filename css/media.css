@@ -285,7 +285,7 @@
   }
 
   .hero__descr {
-    max-width: unset;
+    max-width: 630px;
     margin-bottom: 136px;
   }
 
@@ -315,7 +315,7 @@
   }
 
   .gallery__form {
-    width: 100%;
+    width: 50%;
   }
 
   .choices:last-child {

@@ -143,7 +143,7 @@ body {
 .menu__nav {
   display: flex;
   align-items: center;
-  gap: 300px;
+  gap: 152px;
 }
 
 .menu__list {
@@ -151,7 +151,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
-  gap: 50px;
+  gap: 40px;
 }
 
 .menu__item {
@@ -228,14 +228,14 @@ body {
 .menu__btn {
   display: inline-block;
   position: relative;
-  width: 130px;
+  min-width: 78px;
   height: 30px;
   background-color: transparent;
   color: rgb(255, 255, 255);
   border-color: var(--violet);
   border-style: solid;
   margin: 0;
-  padding: 0;
+  padding: 0 3px;
   border: none;
   border-radius: 0;
   border-radius: 100px;
@@ -245,8 +245,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   border-radius: 0;
-  padding-left: 6px;
-  padding-right: 6px;
 }
 
 .menu__btn {
