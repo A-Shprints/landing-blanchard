@@ -727,6 +727,16 @@
     margin-bottom: 0px;
   }
 
+  .gallery__wrapper {
+    padding-top: 0;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .gallery__form {
+    width: 100%;
+  }
+
   .gallery__form-wrapper {
     padding-top: 16px;
   }
@@ -860,8 +870,8 @@
   }
 
   .events__link {
-    bottom: 44px;
-    left: 27px;
+    bottom: 0;
+    left: -6px;
   }
 
   .events__wrapper {
