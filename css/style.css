@@ -1501,8 +1501,12 @@ body {
   margin-bottom: 0;
 }
 
+.swiper-wrapper {
+  padding-bottom: 5px;
+}
+
 .swiper-2 {
-  height: 720px;
+  height: 730px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1962,10 +1966,9 @@ body {
 
 .showroom__text {
   margin-top: 0;
-
   font-weight: 400;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 20px;
 }
 
 .form {
@@ -2037,7 +2040,7 @@ body {
   margin-bottom: 6px;
   font-weight: 600;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 24px;
 }
 
 .contacts__wrapper {
