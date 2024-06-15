@@ -168,6 +168,7 @@ body {
   line-height: 20px;
   width: 100%;
   transition: all 0.2s ease-in-out;
+  white-space: nowrap;
 }
 
 .menu__link:focus-visible {
@@ -338,6 +339,7 @@ body {
   list-style: none;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
+  white-space: nowrap;
 }
 
 .submenu__item::after {
